@@ -1,5 +1,6 @@
 (require 'org)
 
+
 ;; Files
 (setq org-directory "~/Documents/org")
 (setq org-agenda-files (list "inbox.org" "agenda.org"
@@ -83,3 +84,6 @@
                       (org-agenda-overriding-header "\nInbox\n")))
           (tags "CLOSED>=\"<today>\""
                 ((org-agenda-overriding-header "\nCompleted today\n")))))))
+
+
+(provide 'GTD)
